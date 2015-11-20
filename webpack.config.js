@@ -26,23 +26,23 @@ deps.forEach(function (dep) {
 });
 */
 module.exports = {
-/*    entry: {
-        app: './app.js',
-        index: './index.js'
+    entry: {
+        music: './app/music.js',
+        index: './app/main.js'
     },
     output: {
-        path: './public/js',
+        path: './build',
         //  publicPath: '/js/',
         filename: '[name].js'
-    },*/
-    entry: [
+    },
+/*    entry: [
         './app/main.js'
      ],
      output: {
      path: './build',
      //  publicPath: '/js/',
      filename: 'bundle.js'
-     },
+     },*/
     module: {
         loaders: [
             { test: /\.coffee$/, loader: 'coffee-loader' },

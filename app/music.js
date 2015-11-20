@@ -1,5 +1,5 @@
 var React = require('react');
-
+var Data = require('./data');
 /**
  * 音乐播放器
  */
@@ -151,4 +151,7 @@ var Footer = React.createClass({
 	}
 });
 
-module.exports = Music;
+React.render(
+    <Music data={Data}/>,
+    document.getElementById('music')
+);

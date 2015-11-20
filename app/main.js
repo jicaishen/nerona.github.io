@@ -17,7 +17,7 @@ var Index = React.createClass({
 						<img src="./app/images/1.png" alt="个人头像" />
 						<span className="indexName">Neron</span>
 					</p>
-					<p className="indexBtn"><i className="icon-music"></i><a href="/#music">Start Play &gt;&gt;</a></p>
+					<p className="indexBtn"><i className="icon-music"></i><a href="http://m.kuwo.cn/?f=srcwap">Start Play &gt;&gt;</a></p>
 				</article>
 			</div>
 		);
@@ -34,5 +34,5 @@ var ImgBg = React.createClass({
 
 React.render(
 		<Index />,
-		document.getElementById('container')
+		document.getElementById('index')
 );
