@@ -63,7 +63,7 @@
 							React.createElement("img", {src: "./app/images/1.png", alt: "个人头像"}), 
 							React.createElement("span", {className: "indexName"}, "Neron")
 						), 
-						React.createElement("p", {className: "indexBtn"}, React.createElement("i", {className: "icon-music"}), React.createElement("a", {href: "http://m.kuwo.cn/?f=srcwap"}, "Start Play >>"))
+						React.createElement("p", {className: "indexBtn"}, React.createElement("i", {className: "icon-music"}), React.createElement("a", {href: "http://m.kuwo.cn/?f=srcwap"}, "Start Play! >>"))
 					)
 				)
 			);
