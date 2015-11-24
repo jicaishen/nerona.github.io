@@ -48,7 +48,8 @@
 	__webpack_require__(6);
 
 	var React = __webpack_require__(8);
-	var Data = __webpack_require__(165);
+	var ReactDOM = __webpack_require__(165);
+	var Data = __webpack_require__(166);
 
 	/**
 	 * 首页
@@ -78,7 +79,7 @@
 		}
 	}); 
 
-	React.render(
+	ReactDOM.render(
 			React.createElement(Index, null),
 			document.getElementById('index')
 	);
@@ -20059,6 +20060,15 @@
 
 /***/ },
 /* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	module.exports = __webpack_require__(10);
+
+
+/***/ },
+/* 166 */
 /***/ function(module, exports) {
 
 	/**

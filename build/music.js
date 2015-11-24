@@ -45,7 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	var React = __webpack_require__(8);
-	var Data = __webpack_require__(165);
+	var Data = __webpack_require__(166);
 	/**
 	 * 音乐播放器
 	 */
@@ -19788,7 +19788,8 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(11)))
 
 /***/ },
-/* 165 */
+/* 165 */,
+/* 166 */
 /***/ function(module, exports) {
 
 	/**

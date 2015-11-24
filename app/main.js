@@ -2,6 +2,7 @@ require('./less/style.less');
 require('./css/normalize.css');
 
 var React = require('react');
+var ReactDOM = require('react-dom');
 var Data = require('./data');
 
 /**
@@ -32,7 +33,7 @@ var ImgBg = React.createClass({
 	}
 }); 
 
-React.render(
+ReactDOM.render(
 		<Index />,
 		document.getElementById('index')
 );
