@@ -51,7 +51,7 @@ module.exports = {
             { test: /\.css$/, loader: 'style-loader!css-loader' },
             {test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'},
             {test: /\.woff$/, loader: 'url-loader?limit=10000'}
-        ],
+        ]
         //noParse: [pathToReact]
     },
     resolve: {
